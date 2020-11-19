@@ -1,9 +1,8 @@
-package ex1;
+package ex1.src;
 
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.Objects;
 
 public class WGraph_DS implements weighted_graph, Serializable {
     public static class NodeInfo implements node_info, Comparable, Serializable {
@@ -89,15 +88,15 @@ public class WGraph_DS implements weighted_graph, Serializable {
          */
         public node_info getParent(){ return this.parent;}
         /**
-         * Allows changing the "parent" value of given node
+         * Allows changing the "parent" value of given node.
          */
         public void setParent (node_info p){ this.parent = p; }
         /**
-         * getVisited is true if we scanned evert neighbor
+         * getVisited is true if we scanned evert neighbor.
          */
         public boolean getVisited(){ return this.visited;}
         /**
-         * setVisited is true if we scanned evert neighbor
+         * setVisited is true if we scanned evert neighbor.
          * @return
          */
         public void setVisited (boolean visit){ this.visited = visit;}

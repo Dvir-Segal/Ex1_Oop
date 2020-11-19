@@ -1,13 +1,13 @@
-package ex1;
+package ex1.tests;
 
+import ex1.src.WGraph_DS;
+import ex1.src.node_info;
+import ex1.src.weighted_graph;
 import org.junit.jupiter.api.Test;
 
-import java.time.Duration;
-import java.time.Instant;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,5 +1,8 @@
-package ex1;
+package ex1.tests;
 
+import ex1.src.WGraph_Algo;
+import ex1.src.WGraph_DS;
+import ex1.src.node_info;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -11,7 +14,8 @@ class WGraph_AlgoTest {
     /**
      * Building connected graph, for Dikjstra algorithm (this graph displayed at lesson
      * of Elizabeth)
-     * @param g
+     * @param
+     * @return
      */
     static WGraph_DS Djx(){
         WGraph_DS g = new WGraph_DS();
